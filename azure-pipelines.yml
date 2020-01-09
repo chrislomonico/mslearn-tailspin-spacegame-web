@@ -8,8 +8,6 @@ trigger:
 
 pool:
   name: 'ubuntu'
-  demands:
-  - npm
 
 variables:
   buildConfiguration: 'Release'
